@@ -1,0 +1,5 @@
+k=float(input("Enter The Value :"))
+m=int(k*1000)
+cm=int(k*100000)
+print(f"Meter of {k}km : {m}m")
+print(f"Centimeter of {k}km : {cm}cm")
