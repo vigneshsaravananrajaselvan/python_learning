@@ -1,0 +1,13 @@
+student={
+    "name":"vignesh",
+    "age":22,
+     "course":"python"
+}
+print(student.get("name"))
+print(student.get("age"))
+student["age"]=26
+student["city"]="chennai"
+print(student.get("city"))
+print(student.keys())
+print(student.values())
+print(student.items())
