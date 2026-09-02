@@ -1,0 +1,5 @@
+from decimal import Decimal,ROUND_FLOOR
+l,b=map(Decimal,input().split())
+area=l*b
+result=area.quantize(Decimal("0.00001"),rounding=ROUND_FLOOR)
+print(result)
