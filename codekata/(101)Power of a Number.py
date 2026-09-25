@@ -4,7 +4,6 @@ if n == 1:
       
 if k <= 0 or n <= 0:
     print("no")
- 
 if k == 1:
     print("no")
         
