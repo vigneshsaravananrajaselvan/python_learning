@@ -14,4 +14,3 @@ for i in range (n):
         count  += 1
         last_finish_time = finish
 print(count)
-print
