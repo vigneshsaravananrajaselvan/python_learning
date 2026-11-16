@@ -1,0 +1,11 @@
+m1=int(input("M1="))
+m2=int(input("M2="))
+m3=int(input("M3="))
+m4=int(input("M4="))
+m5=int(input("M5="))
+total=m1+m2+m3+m4+m5
+average=total/5
+percentage=(total/500)*100
+print("TOTAL=",total)
+print("AVERAGE=",average)
+print("PERCENTAGE=",average)
